@@ -1,6 +1,9 @@
 .workPage {
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
+  /* overflow: hidden; */
   /* border: 2px solid red; */
 }
 .heading h1 {
@@ -10,10 +13,11 @@
 }
 .workCard {
   border-bottom: 2px solid lightgray;
-  margin-top: 70px;
+  /* margin-top: 70px; */
   display: flex;
-  padding-bottom: 10px;
+  padding: 50px;
   width: 900px;
+  /* flex-wrap: wrap; */
   /* border: 2px solid blue ; */
 }
 .workContainer {
@@ -22,11 +26,13 @@
   align-items: center;
   justify-content: center;
   text-align: start;
+  /* flex-wrap: wrap; */
 }
 .middleText {
   display: flex;
   gap: 20px;
   align-items: center;
+  padding: 20px;
   /* flex-direction: column; */
 }
 .workCardImage {
@@ -45,6 +51,8 @@
   color: white;
   padding: 3px;
   font-size: 15px;
+  width: 60px;
+  text-align: center;
 
   border-radius: 15px;
 }
