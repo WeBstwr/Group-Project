@@ -9,7 +9,7 @@ function Header() {
         <nav className="header-nav">
           <ol className="header-nav-list">
             <li className="header-nav-item">
-              <Link to="/">home</Link>
+              <Link to="/"></Link>
             </li>
             <li className="header-nav-item">
               <Link to="/Work">works</Link>

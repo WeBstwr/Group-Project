@@ -1,4 +1,3 @@
-
 import "./assets/globals.css";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
