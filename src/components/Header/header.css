@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+  padding: 1rem 3rem;
+  list-style: none;
+}
+
+.header-nav-item a {
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}

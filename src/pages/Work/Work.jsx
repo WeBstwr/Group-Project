@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./work.css";
 import Ronaldo from "../../assets/workPics/ronaldo.jpeg";
 import malayaham from "../../assets/workPics/malayaham.jpeg";
