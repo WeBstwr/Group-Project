@@ -5,11 +5,9 @@ import heroProfile from "../../assets/heroProfile.jpg";
 function Hero() {
   return (
     <section className="hero">
-      <div className="hero__container">
+      <div className="hero-container">
         <div className="hero-text-box">
-          <h2>
-            hi, i am john, <br /> creative technologist
-          </h2>
+          <h2>hi, i am john, creative technologist</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
             inventore veritatis obcaecati soluta! Voluptatibus cum voluptatum,
