@@ -1,7 +1,7 @@
 .footer{
     display: grid;
     place-content: center;
-    background-color: #ebf4f6;
+    background-color: white;
     gap: 3rem;
     
     
