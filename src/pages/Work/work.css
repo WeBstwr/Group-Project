@@ -3,6 +3,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  z-index: -1;
   /* overflow: hidden; */
   /* border: 2px solid red; */
 }

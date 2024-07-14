@@ -9,6 +9,9 @@
   gap: 10rem;
 }
 
+@media screen and (max-width: 45.75em) {
+}
+
 @media screen and (max-width: 58.75em) {
   .hero-container {
     flex-direction: column;
