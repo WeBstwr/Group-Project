@@ -9,9 +9,6 @@
   gap: 10rem;
 }
 
-@media screen and (max-width: 45.75em) {
-}
-
 @media screen and (max-width: 58.75em) {
   .hero-container {
     flex-direction: column;
@@ -90,6 +87,7 @@
 
 .recent-posts {
   background-color: var(--primary-color);
+  padding-bottom: 3rem;
 }
 
 .recent-posts-title {
