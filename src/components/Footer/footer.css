@@ -1,8 +1,10 @@
-.footer {
-  display: grid;
-  place-content: center;
-  background-color: #ebf4f6;
-  gap: 3rem;
+.footer{
+    display: grid;
+    place-content: center;
+    gap: 3rem;
+    
+    
+    
 }
 
 .icons {
