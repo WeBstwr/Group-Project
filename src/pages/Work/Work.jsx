@@ -7,13 +7,11 @@ import Components from "../../assets/workPics/components.jpeg";
 const Work = () => {
   return (
     <div className="workPage">
-        
       <div className="workContainer">
-      <div className="heading">
+        <div className="heading">
           <h1>Work</h1>
         </div>
         <div className="workCard">
-        
           <div className="workCardImage">
             <img className="img" src={dashboard} alt="workImage" />
           </div>

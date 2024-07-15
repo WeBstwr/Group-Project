@@ -88,6 +88,7 @@
 .recent-posts {
   background-color: var(--primary-color);
   padding-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .recent-posts-title {
