@@ -1,77 +1,74 @@
-.blog{
-    font-size: 20px;
-    margin-left: 45rem;
+.blog {
+  font-size: 20px;
+  margin-left: 45rem;
 }
 
-
 .blog-container {
-    display: grid;
-    place-content: center;
-    margin: 5rem auto; 
-    font-size: 15px;
-    border-bottom: solid grey .05px;
-    padding: 1rem; 
-    max-width: 800px; 
-    width: 100%; 
-    box-sizing: border-box; 
+  display: grid;
+  place-content: center;
+  margin: 5rem auto;
+  font-size: 15px;
+  border-bottom: solid grey 0.05px;
+  padding: 1rem;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .blog-container h1 {
-    text-align: left;
+  text-align: left;
 }
 
 .flex {
-    display: flex;
-    flex-wrap: wrap; 
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.blog-container h3{
-    border-right: 2px solid black;
+.blog-container h3 {
+  border-right: 2px solid black;
 }
 .blog-container h3,
-
 .blog-container p {
-    font-size: 14px;
-    padding: 5px;
+  font-size: 14px;
+  padding: 5px;
 }
 
-.blog-container h4{
-    font-size: 14px;
-    padding: 5px;
-    color: grey;
+.blog-container h4 {
+  font-size: 14px;
+  padding: 5px;
+  color: grey;
 }
 
 @media (max-width: 768px) {
-    .blog{
-        margin-left: 0.7rem;
+  .blog {
+    margin-left: 0.7rem;
+  }
+  .blog-container {
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 14px;
+  }
 
-    }
-    .blog-container {
-        margin: 2rem auto;
-        padding: 1rem;
-        font-size: 14px;
-    }
+  .flex {
+    flex-direction: row;
+    align-items: center;
+  }
 
-    .flex {
-        flex-direction: row; 
-        align-items: center;
-    }
-
-    .blog-container h3,
-    .blog-container h4 {
-        text-align: center; 
-    }
+  .blog-container h3,
+  .blog-container h4 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
-    .blog-container {
-        margin: 1rem auto; 
-        font-size: 12px; 
-    }
+  .blog-container {
+    margin: 1rem auto;
+    font-size: 12px;
+  }
 
-    .blog-container h3,
-    .blog-container h4,
-    .blog-container p {
-        font-size: 12px; 
-    }
+  .blog-container h3,
+  .blog-container h4,
+  .blog-container p {
+    font-size: 12px;
+  }
 }
