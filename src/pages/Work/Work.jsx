@@ -6,7 +6,7 @@ import Components from "../../assets/workPics/components.jpeg";
 
 const Work = () => {
   return (
-    <div className="workPage">
+    <div data-king="mainWrapper" className="workPage">
       <div className="workContainer">
         <div className="heading">
           <h1>Work</h1>
