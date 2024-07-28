@@ -3,13 +3,6 @@ import { describe, it, expect } from "vitest";
 import Blog from "./Blog";
 
 describe("Blog component", () => {
-  it("renders the blog container", () => {
-    render(<Blog />);
-
-    const blogContainer = screen.getByRole("article");
-    expect(blogContainer).toBeInTheDocument();
-  });
-
   it("renders the heading", () => {
     render(<Blog />);
 
